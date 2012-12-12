@@ -2,6 +2,16 @@
 @import "sprites/*.png";
 @include all-sprites-sprites;
 
+@mixin linkBg {
+	box-shadow: 0 0 15px rgba(255, 255, 255, .6);
+	@include transition-property(all);
+	@include transition-duration(.3s);
+
+	&:hover {
+		box-shadow: 0 0 22px rgba(255, 255, 255, .8);
+	}
+}
+
 * { zoom: 1; }
 html{
 	height: 100%;
@@ -83,13 +93,7 @@ h3 {
 	width: 60px;
 	height: 60px;
 	margin: 0 auto;
-	box-shadow: 0 0 15px rgba(255, 255, 255, .6);
-	@include transition-property(all);
-	@include transition-duration(.3s);
-
-	&:hover {
-		box-shadow: 0 0 22px rgba(255, 255, 255, .8);
-	}
+	@include linkBg;
 }
 
 .left {
@@ -129,6 +133,8 @@ p {
 	display: block;
 	width: 60px;
 	height: 60px;
+	@include border-radius(50px);
+	@include linkBg;
 }
 .amazon_wrapper {
 	position: relative;
@@ -141,6 +147,7 @@ p {
 	background: #fff;
 	background: rgba(255, 255, 255, .9);
 	@include border-radius(4px);
+	@include linkBg;
 }
 .amazon {
 	float: left;
