@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 8]> <html class="ie7" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
-<!--[if IE 8]> <html class="ie8" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
-<!--[if gt IE 8]><!--> <html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+<!--[if lt IE 8]> <html class="ie7 no-js" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 no-js" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<title>Sihtu</title>
@@ -15,6 +15,7 @@
     <meta property="og:title" content="Sihtu - The official website" />
     <meta property="og:description" content="Sihtu - The heaviest french metal band " />
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/vendors/modernizr.js"></script>
 	<!--
 
 		Hi! Looking for something?
@@ -50,9 +51,10 @@
 		</div>
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/vendors/jquery-1.8.3.min.js"><\/script>')</script>
-	<script src="js/vendors/jquery.anystretch.min.js"></script>
-	<script>$(document).ready(function(){$('body').anystretch('/img/cover.jpg',{speed: 150});});</script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendors/jquery-1.8.3.min.js"><\/script>')
+		Modernizr.backgroundsize || document.write('<script src="js/main.min.js"><\/script>')
+	</script>
 	<script type="text/javascript">
 		var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-36975779-1']); _gaq.push(['_trackPageview']);
 		(function() {

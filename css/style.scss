@@ -27,7 +27,15 @@ body {
 	color: #fff;
 	color: rgba(255, 255, 255, .8);
 	font-family: Georgia;
-	background: #000;
+	background-color: #000;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-background-clip: border-box;
+	background-origin: padding-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(../img/cover.jpg);
 }
 a {
 	text-decoration: none;
