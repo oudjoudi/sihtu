@@ -1,14 +1,17 @@
 CACHE MANIFEST
 
-# Time: Fri Jan 11 2013 15:52:20 GMT+0000 (UTC)
+# Time: Fri Jan 11 2013 16:02:38 GMT+0000 (UTC)
 
 CACHE:
+http://sihtu.com/manifest.appcache
 http://sihtu.com/css/style.css
 http://sihtu.com/js/vendors/modernizr.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+http://www.google-analytics.com/ga.js
 http://sihtu.com/img/cover.jpg
 http://sihtu.com/img/sprites-s248fe7a72b.png
-http://www.google-analytics.com/ga.js
+http://sihtu.com/img/favicon.png
+http://www.google-analytics.com/__utm.gif?utmwv=5.3.8&utms=1&utmn=738677575&utmhn=sihtu.com&utmcs=UTF-8&utmsr=1024x768&utmvp=400x300&utmsc=32-bit&utmul=c&utmje=0&utmfl=-&utmdt=Sihtu&utmhid=13210148&utmr=-&utmp=%2F&utmac=UA-36975779-1&utmcc=__utma%3D92929695.1602114836.1357920153.1357920153.1357920153.1%3B%2B__utmz%3D92929695.1357920153.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~
 http://www.google-analytics.com/__utm.gif?utmwv=5.3.8&utms=1&utmn=1769958577&utmhn=sihtu.com&utmcs=UTF-8&utmsr=1024x768&utmvp=400x300&utmsc=32-bit&utmul=c&utmje=0&utmfl=-&utmdt=Sihtu&utmhid=472523388&utmr=-&utmp=%2F&utmac=UA-36975779-1&utmcc=__utma%3D92929695.2059715563.1357919535.1357919535.1357919535.1%3B%2B__utmz%3D92929695.1357919535.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~
 
 NETWORK:
